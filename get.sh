@@ -1,7 +1,7 @@
 #!/bin/bash
 last=$(date);
 echo "#Last update: $last";
-echo "/ip firewall address-list remove [/ip firewall address-list find list=NoNAT]";
+echo "/ip firewall address-list remove [/ip firewall address-list find list=gfw]";
 echo "/ip firewall address-list";
 
 array=("https://raw.githubusercontent.com/naruto522ru/ipranges/main/telegram/ipv4_merged.txt" 
