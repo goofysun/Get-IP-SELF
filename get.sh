@@ -19,6 +19,3 @@ for element in "${array[@]}" ; do
         echo ":do { add address=$range list=gfw} on-error={}";
     done;
 done;
-
-
-echo ":do { add address=10.0.0.0/8 list=gfw} on-error={}";
