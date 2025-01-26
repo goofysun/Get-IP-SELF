@@ -9,7 +9,6 @@ array=("https://raw.githubusercontent.com/naruto522ru/ipranges/main/telegram/ipv
         "https://raw.githubusercontent.com/naruto522ru/ipranges/main/googlecloud/ipv4_merged.txt"
         "https://raw.githubusercontent.com/naruto522ru/ipranges/main/chatgpt/ipv4_merged.txt"
         "https://raw.githubusercontent.com/naruto522ru/ipranges/main/facebook/ipv4_merged.txt"
-        "https://raw.githubusercontent.com/naruto522ru/ipranges/main/tiktok/ipv4_merged.txt"
         "https://raw.githubusercontent.com/naruto522ru/ipranges/main/twitter/ipv4_merged.txt"
         "https://raw.githubusercontent.com/naruto522ru/ipranges/main/youtube/ipv4_merged.txt"
         "https://raw.githubusercontent.com/lord-alfred/ipranges/main/all/ipv4_merged.txt")
