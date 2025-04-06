@@ -1,4 +1,4 @@
-#Last update: Sun Apr  6 16:26:04 UTC 2025
+#Last update: Sun Apr  6 16:44:22 UTC 2025
 /ip firewall address-list remove [/ip firewall address-list find list=gfw]
 /ip firewall address-list
 :do { add address=91.105.192.0/23 list=gfw} on-error={}
@@ -15144,8 +15144,7 @@
 :do { add address=62.115.179.220/31 list=gfw} on-error={}
 :do { add address=62.115.179.228/31 list=gfw} on-error={}
 :do { add address=62.169.136.7/32 list=gfw} on-error={}
-:do { add address=62.169.136.8/31 list=gfw} on-error={}
-:do { add address=62.169.136.11/32 list=gfw} on-error={}
+:do { add address=62.169.136.8/30 list=gfw} on-error={}
 :do { add address=62.169.136.12/31 list=gfw} on-error={}
 :do { add address=62.169.136.27/32 list=gfw} on-error={}
 :do { add address=62.169.136.35/32 list=gfw} on-error={}
@@ -15475,7 +15474,6 @@
 :do { add address=79.127.254.119/32 list=gfw} on-error={}
 :do { add address=79.135.104.11/32 list=gfw} on-error={}
 :do { add address=79.135.104.12/32 list=gfw} on-error={}
-:do { add address=79.135.104.26/32 list=gfw} on-error={}
 :do { add address=79.135.105.80/32 list=gfw} on-error={}
 :do { add address=79.135.105.88/32 list=gfw} on-error={}
 :do { add address=79.135.105.129/32 list=gfw} on-error={}
@@ -20499,32 +20497,37 @@
 :do { add address=185.159.156.28/31 list=gfw} on-error={}
 :do { add address=185.159.156.37/32 list=gfw} on-error={}
 :do { add address=185.159.156.49/32 list=gfw} on-error={}
-:do { add address=185.159.156.56/32 list=gfw} on-error={}
+:do { add address=185.159.156.54/32 list=gfw} on-error={}
+:do { add address=185.159.156.56/31 list=gfw} on-error={}
 :do { add address=185.159.156.58/32 list=gfw} on-error={}
-:do { add address=185.159.156.68/32 list=gfw} on-error={}
+:do { add address=185.159.156.64/32 list=gfw} on-error={}
+:do { add address=185.159.156.66/32 list=gfw} on-error={}
+:do { add address=185.159.156.68/30 list=gfw} on-error={}
 :do { add address=185.159.156.72/31 list=gfw} on-error={}
 :do { add address=185.159.156.74/32 list=gfw} on-error={}
 :do { add address=185.159.156.81/32 list=gfw} on-error={}
 :do { add address=185.159.156.82/31 list=gfw} on-error={}
 :do { add address=185.159.156.84/30 list=gfw} on-error={}
 :do { add address=185.159.156.88/29 list=gfw} on-error={}
-:do { add address=185.159.156.97/32 list=gfw} on-error={}
-:do { add address=185.159.156.98/31 list=gfw} on-error={}
-:do { add address=185.159.156.119/32 list=gfw} on-error={}
-:do { add address=185.159.156.121/32 list=gfw} on-error={}
+:do { add address=185.159.156.96/28 list=gfw} on-error={}
+:do { add address=185.159.156.112/29 list=gfw} on-error={}
+:do { add address=185.159.156.120/32 list=gfw} on-error={}
 :do { add address=185.159.156.122/31 list=gfw} on-error={}
-:do { add address=185.159.156.124/32 list=gfw} on-error={}
-:do { add address=185.159.156.126/31 list=gfw} on-error={}
+:do { add address=185.159.156.124/30 list=gfw} on-error={}
 :do { add address=185.159.156.128/32 list=gfw} on-error={}
-:do { add address=185.159.156.133/32 list=gfw} on-error={}
+:do { add address=185.159.156.131/32 list=gfw} on-error={}
+:do { add address=185.159.156.132/31 list=gfw} on-error={}
 :do { add address=185.159.156.134/32 list=gfw} on-error={}
+:do { add address=185.159.156.137/32 list=gfw} on-error={}
 :do { add address=185.159.156.139/32 list=gfw} on-error={}
 :do { add address=185.159.156.140/31 list=gfw} on-error={}
 :do { add address=185.159.156.148/32 list=gfw} on-error={}
 :do { add address=185.159.156.160/31 list=gfw} on-error={}
+:do { add address=185.159.156.163/32 list=gfw} on-error={}
+:do { add address=185.159.156.164/30 list=gfw} on-error={}
 :do { add address=185.159.156.168/30 list=gfw} on-error={}
-:do { add address=185.159.156.179/32 list=gfw} on-error={}
-:do { add address=185.159.156.180/30 list=gfw} on-error={}
+:do { add address=185.159.156.174/31 list=gfw} on-error={}
+:do { add address=185.159.156.176/29 list=gfw} on-error={}
 :do { add address=185.159.156.184/32 list=gfw} on-error={}
 :do { add address=185.159.157.13/32 list=gfw} on-error={}
 :do { add address=185.159.157.23/32 list=gfw} on-error={}
