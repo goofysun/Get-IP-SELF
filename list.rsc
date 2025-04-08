@@ -1,4 +1,4 @@
-#Last update: Tue Apr  8 08:31:56 UTC 2025
+#Last update: Tue Apr  8 08:55:19 UTC 2025
 /ip firewall address-list remove [/ip firewall address-list find list=gfw]
 /ip firewall address-list
 :do { add address=91.105.192.0/23 list=gfw} on-error={}
@@ -15502,7 +15502,6 @@
 :do { add address=89.36.76.130/32 list=gfw} on-error={}
 :do { add address=89.39.104.193/32 list=gfw} on-error={}
 :do { add address=89.39.106.191/32 list=gfw} on-error={}
-:do { add address=89.39.107.170/32 list=gfw} on-error={}
 :do { add address=89.45.4.2/32 list=gfw} on-error={}
 :do { add address=89.45.224.2/32 list=gfw} on-error={}
 :do { add address=89.48.0.0/13 list=gfw} on-error={}
@@ -17476,31 +17475,10 @@
 :do { add address=104.28.149.4/30 list=gfw} on-error={}
 :do { add address=104.28.149.8/29 list=gfw} on-error={}
 :do { add address=104.28.149.16/28 list=gfw} on-error={}
-:do { add address=104.28.149.32/30 list=gfw} on-error={}
-:do { add address=104.28.149.36/32 list=gfw} on-error={}
-:do { add address=104.28.149.46/31 list=gfw} on-error={}
-:do { add address=104.28.149.48/28 list=gfw} on-error={}
-:do { add address=104.28.149.64/29 list=gfw} on-error={}
-:do { add address=104.28.149.72/31 list=gfw} on-error={}
-:do { add address=104.28.149.84/30 list=gfw} on-error={}
-:do { add address=104.28.149.88/32 list=gfw} on-error={}
-:do { add address=104.28.149.98/31 list=gfw} on-error={}
-:do { add address=104.28.149.100/30 list=gfw} on-error={}
-:do { add address=104.28.149.104/29 list=gfw} on-error={}
-:do { add address=104.28.149.112/28 list=gfw} on-error={}
-:do { add address=104.28.149.128/27 list=gfw} on-error={}
-:do { add address=104.28.149.160/28 list=gfw} on-error={}
-:do { add address=104.28.149.177/32 list=gfw} on-error={}
-:do { add address=104.28.149.178/31 list=gfw} on-error={}
-:do { add address=104.28.149.180/30 list=gfw} on-error={}
-:do { add address=104.28.149.184/32 list=gfw} on-error={}
-:do { add address=104.28.149.187/32 list=gfw} on-error={}
-:do { add address=104.28.149.188/30 list=gfw} on-error={}
-:do { add address=104.28.149.192/29 list=gfw} on-error={}
-:do { add address=104.28.149.200/31 list=gfw} on-error={}
-:do { add address=104.28.149.202/32 list=gfw} on-error={}
-:do { add address=104.28.149.204/32 list=gfw} on-error={}
-:do { add address=104.28.149.206/31 list=gfw} on-error={}
+:do { add address=104.28.149.32/27 list=gfw} on-error={}
+:do { add address=104.28.149.64/26 list=gfw} on-error={}
+:do { add address=104.28.149.128/26 list=gfw} on-error={}
+:do { add address=104.28.149.192/28 list=gfw} on-error={}
 :do { add address=104.28.149.208/32 list=gfw} on-error={}
 :do { add address=104.28.149.210/31 list=gfw} on-error={}
 :do { add address=104.28.149.212/30 list=gfw} on-error={}
@@ -18224,9 +18202,6 @@
 :do { add address=140.248.19.8/30 list=gfw} on-error={}
 :do { add address=140.248.20.0/24 list=gfw} on-error={}
 :do { add address=140.248.21.0/29 list=gfw} on-error={}
-:do { add address=140.248.22.0/24 list=gfw} on-error={}
-:do { add address=140.248.23.0/27 list=gfw} on-error={}
-:do { add address=140.248.23.32/28 list=gfw} on-error={}
 :do { add address=140.248.24.0/26 list=gfw} on-error={}
 :do { add address=140.248.24.64/28 list=gfw} on-error={}
 :do { add address=140.248.24.80/29 list=gfw} on-error={}
@@ -18497,6 +18472,11 @@
 :do { add address=146.70.237.130/32 list=gfw} on-error={}
 :do { add address=146.70.245.130/32 list=gfw} on-error={}
 :do { add address=146.70.252.2/32 list=gfw} on-error={}
+:do { add address=146.75.128.0/23 list=gfw} on-error={}
+:do { add address=146.75.130.0/28 list=gfw} on-error={}
+:do { add address=146.75.130.16/29 list=gfw} on-error={}
+:do { add address=146.75.130.24/30 list=gfw} on-error={}
+:do { add address=146.75.130.28/31 list=gfw} on-error={}
 :do { add address=146.75.134.0/23 list=gfw} on-error={}
 :do { add address=146.75.136.0/24 list=gfw} on-error={}
 :do { add address=146.75.137.0/29 list=gfw} on-error={}
@@ -20472,8 +20452,6 @@
 :do { add address=185.107.44.110/32 list=gfw} on-error={}
 :do { add address=185.107.44.200/32 list=gfw} on-error={}
 :do { add address=185.107.56.103/32 list=gfw} on-error={}
-:do { add address=185.107.56.156/32 list=gfw} on-error={}
-:do { add address=185.107.57.9/32 list=gfw} on-error={}
 :do { add address=185.111.109.1/32 list=gfw} on-error={}
 :do { add address=185.130.187.2/32 list=gfw} on-error={}
 :do { add address=185.143.16.0/24 list=gfw} on-error={}
@@ -20564,7 +20542,6 @@
 :do { add address=185.163.44.137/32 list=gfw} on-error={}
 :do { add address=185.165.241.179/32 list=gfw} on-error={}
 :do { add address=185.177.125.174/32 list=gfw} on-error={}
-:do { add address=185.177.125.213/32 list=gfw} on-error={}
 :do { add address=185.177.126.102/32 list=gfw} on-error={}
 :do { add address=185.177.126.134/32 list=gfw} on-error={}
 :do { add address=185.177.126.151/32 list=gfw} on-error={}
