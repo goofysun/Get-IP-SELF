@@ -6,6 +6,7 @@ echo "/ip firewall address-list";
 
 array=("https://raw.githubusercontent.com/lord-alfred/ipranges/main/openai/ipv4_merged.txt" 
         "https://raw.githubusercontent.com/lord-alfred/ipranges/main/google/ipv4_merged.txt" 
+        "https://raw.githubusercontent.com/lord-alfred/ipranges/main/googlebot/ipv4_merged.txt" 
         "https://raw.githubusercontent.com/lord-alfred/ipranges/main/telegram/ipv4_merged.txt" 
         "https://raw.githubusercontent.com/lord-alfred/ipranges/main/facebook/ipv4_merged.txt" 
         "https://raw.githubusercontent.com/lord-alfred/ipranges/main/twitter/ipv4_merged.txt" 
