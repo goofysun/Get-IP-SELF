@@ -1,4 +1,4 @@
-#Last update: Fri Sep 12 01:48:21 UTC 2025
+#Last update: Fri Sep 12 02:58:00 UTC 2025
 /ip firewall address-list remove [/ip firewall address-list find list=gfw]
 /ip firewall address-list
 :do { add address=4.151.71.176/28 list=gfw} on-error={}
@@ -21,6 +21,7 @@
 :do { add address=20.0.53.96/28 list=gfw} on-error={}
 :do { add address=20.14.99.96/28 list=gfw} on-error={}
 :do { add address=20.25.151.224/28 list=gfw} on-error={}
+:do { add address=20.27.94.128/28 list=gfw} on-error={}
 :do { add address=20.42.10.176/28 list=gfw} on-error={}
 :do { add address=20.55.229.144/28 list=gfw} on-error={}
 :do { add address=20.63.221.64/28 list=gfw} on-error={}
@@ -44,6 +45,7 @@
 :do { add address=20.198.67.96/28 list=gfw} on-error={}
 :do { add address=20.204.24.240/28 list=gfw} on-error={}
 :do { add address=20.210.154.128/28 list=gfw} on-error={}
+:do { add address=20.210.174.208/28 list=gfw} on-error={}
 :do { add address=20.215.188.192/28 list=gfw} on-error={}
 :do { add address=20.215.214.16/28 list=gfw} on-error={}
 :do { add address=20.228.106.176/28 list=gfw} on-error={}
