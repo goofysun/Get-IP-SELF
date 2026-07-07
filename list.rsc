@@ -1,4 +1,4 @@
-#Last update: Mon Jul  6 23:46:36 UTC 2026
+#Last update: Tue Jul  7 04:02:44 UTC 2026
 /ip firewall address-list remove [/ip firewall address-list find list=gfw]
 /ip firewall address-list
 :do { add address=4.151.71.176/28 list=gfw} on-error={}
